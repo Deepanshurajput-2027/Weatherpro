@@ -212,3 +212,7 @@ body {
 .location-input:hover {
   transform: scale(0.95);
 }
+.location-input:focus {
+  outline: none;
+  box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
+}
